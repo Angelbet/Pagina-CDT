@@ -1,0 +1,329 @@
+/*Configuracion de la imagen de fondo*/
+.slider{
+    background: url(../imagenes/Fondo_1.jpg) no-repeat center center fixed;
+    height: 85vh;
+    background-size: cover;
+    background-position: center;
+}
+
+/*Fondos*/
+.fon{
+  background: rgb(46,81,162);
+  background: linear-gradient(90deg, rgba(46,81,162,1) 0%, rgba(24,40,72,1) 100%);
+  background-size: cover;
+}
+.fon2{
+  background: rgb(24,40,72);
+  background: linear-gradient(90deg, rgba(24,40,72,1) 0%, rgba(46,81,162,1) 100%);
+}
+
+/*Letra de los Bloques*/
+.letar{
+    color: #e0f8f7;
+}
+
+/*Configuracion del logo del club barra superior*/
+img#logo{
+    width: 120px;
+    height: 100px;
+}
+
+/*Configuracion del nombre al lado del logo*/
+div.text-center h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+/*Color de Fondo de la barra*/ 
+nav.navbar{
+  background: rgb(24,40,72) !important;
+  background: linear-gradient(0deg, rgba(24,40,72,1) 0%, rgba(46,81,162,1) 100%) !important;
+}
+
+/*Tipo de letra de la barra*/
+a#inicio, #quienes_somos, #preguntas, #junta_directiva{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+/*Configuracion de imagen iniciar sesion y crear secion*/
+a#iniciar_sesion.nav-link, #crear_sesion.nav-link{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    padding-top: 5px;
+} 
+
+/*Configuracion Nav Tabs*/
+.nav-tabs{
+    background-color: transparent;
+    border: none !important;
+  }
+  .nav-tabs > li > a.active{
+    background-color: #0d234e !important;
+    border: medium none;
+    border-radius: 15px;
+}  
+
+/*Configuracion barra Scroll*/
+body::-webkit-scrollbar{
+    width: 9px;
+  }
+  body::-webkit-scrollbar-thumb{
+    background-color: #0d234e;
+    border-radius: 15px;
+}
+
+/*Boton UP Scrolltop*/
+#scrolltop {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url(../imagenes/flecha-arriba.svg) no-repeat center center;
+    background-size: 700%;
+    opacity: 0.8;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transition: all 0.1s;
+    border: black;
+}
+
+h1{
+    color: white;
+} 
+
+/*Carta configuracion*/
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: 400px;
+    background: #262626;
+    overflow: hidden;
+  }
+  .card .imgBx,
+  .card .details {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    transition: .5s;
+  }
+  .card .imgBx {
+    top: 0;
+    left: 0;
+  }
+  .card:hover .imgBx {
+    top: 0;
+    left: -100%;
+  }
+  .card .imgBx img {
+    width: 100%;
+  }
+  .card .details {
+    background: #1c2f54;
+    top: 0;
+    left: 100%;
+    padding: 60px 30px;
+  }
+  .card:hover .details {
+    top: 0;
+    left: 0%;
+  }
+  .card .details h2 {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 10px;
+    border-bottom: 2px solid #fff;
+
+  }
+  .card .details p {
+    margin: 20px 0 0;
+    color: #fff;
+}
+
+/*Footer Configuracion*/
+footer.jumbotron{
+  background-color: #1c2f54 !important;
+  color: white;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+.footer-section {
+background: #151414;
+position: relative;
+}
+.footer-cta {
+border-bottom: 1px solid #373636;
+}
+.single-cta i {
+color: #0e49b5;
+font-size: 30px;
+float: left;
+margin-top: 8px;
+}
+.cta-text {
+padding-left: 15px;
+display: inline-block;
+}
+.cta-text h4 {
+color: #fff;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 2px;
+}
+.cta-text span {
+color: white;
+font-size: 15px;
+}
+.footer-content {
+position: relative;
+z-index: 2;
+}
+.footer-pattern img {
+position: absolute;
+top: 0;
+left: 0;
+height: 330px;
+background-size: cover;
+background-position: 100% 100%;
+}
+.footer-logo {
+margin-bottom: 30px;
+}
+.footer-logo img {
+  max-width: 200px;
+}
+.footer-text p {
+margin-bottom: 14px;
+font-size: 14px;
+  color: white;
+line-height: 28px;
+}
+.footer-social-icon span {
+color: #fff;
+display: block;
+font-size: 20px;
+font-weight: 700;
+font-family: 'Poppins', sans-serif;
+margin-bottom: 20px;
+}
+.footer-social-icon a {
+color: #fff;
+font-size: 16px;
+margin-right: 15px;
+}
+.footer-social-icon i {
+height: 40px;
+width: 40px;
+text-align: center;
+line-height: 38px;
+border-radius: 50%;
+}
+.facebook-bg{
+background: #3B5998;
+}
+.twitter-bg{
+background: #55ACEE;
+}
+.google-bg{
+background: #0e49b5;
+}
+.footer-widget-heading h3 {
+color: #fff;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 40px;
+position: relative;
+}
+.footer-widget-heading h3::before {
+content: "";
+position: absolute;
+left: 0;
+bottom: -15px;
+height: 2px;
+width: 50px;
+background: #0e49b5;
+}
+.footer-widget ul li {
+display: inline-block;
+float: left;
+width: 50%;
+margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+color: #0e49b5;
+}
+.footer-widget ul li a {
+color: white;
+text-transform: capitalize;
+}
+.subscribe-form {
+position: relative;
+overflow: hidden;
+}
+.subscribe-form input {
+width: 100%;
+padding: 14px 28px;
+background: #2E2E2E;
+border: 1px solid #2E2E2E;
+color: #fff;
+}
+.subscribe-form button {
+  position: absolute;
+  right: 0;
+  background: #0e49b5;
+  padding: 13px 20px;
+  border: 1px solid #0e49b5;
+  top: 0;
+}
+.subscribe-form button i {
+color: #fff;
+font-size: 22px;
+transform: rotate(-6deg);
+}
+.copyright-area{
+  background: rgb(24,40,72);
+  background: linear-gradient(90deg, rgba(24,40,72,1) 0%, rgba(46,81,162,1) 100%);
+  padding: 25px 0;
+}
+.copyright-text p {
+margin: 0;
+font-size: 14px;
+color: white;
+}
+.copyright-text p a{
+color: #0e49b5;
+}
+.footer-menu li {
+display: inline-block;
+margin-left: 20px;
+}
+.footer-menu li:hover a{
+color: #0e49b5;
+}
+.footer-menu li a {
+font-size: 14px;
+color: white;
+}
+
+/*Sombreado*/
+div.son{
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+  width: 100%;
+}
+
+/*Imagen Junta*/
+img#junta{
+  width: 75%;
+  height: 60%;
+}
